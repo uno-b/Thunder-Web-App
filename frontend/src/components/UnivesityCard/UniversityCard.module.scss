@@ -1,0 +1,38 @@
+.container {
+  height: 30rem;
+  .card {
+    width: 20rem;
+    height: 25rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(1);
+    }
+
+    .fade {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+      z-index: 1;
+    }
+
+    p {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 30%;
+      left: 50%;
+      color: black;
+      z-index: 2;
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+    }
+  }
+}

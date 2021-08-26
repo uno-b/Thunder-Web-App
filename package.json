@@ -1,0 +1,28 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "mocha backend/test --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^14.1.2",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.1",
+    "nodemon": "^2.0.7",
+    "react-multi-carousel": "^2.6.2"
+  }
+}

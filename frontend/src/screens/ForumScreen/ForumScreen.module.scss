@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  min-height: calc(100vh - 14.5rem);
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+  .statistics {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .statistics {
+    background-color: white;
+    width: 20vw;
+    height: fit-content;
+    margin-left: 3rem;
+
+    .header {
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+  }
+}

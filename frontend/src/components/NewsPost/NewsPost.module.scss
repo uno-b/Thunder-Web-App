@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0;
+
+  img {
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 1rem;
+  }
+
+  a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  p {
+    color: rgb(92, 92, 92);
+  }
+}
+.underline {
+  width: 100%;
+  border-bottom: 1px solid rgb(92, 92, 92);
+}
